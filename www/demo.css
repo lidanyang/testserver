@@ -1,0 +1,11 @@
+.hstyle {
+  position:absolute;
+  left:40px;
+  background-color: white;
+}
+
+.divstyle {
+  border:2px solid grey ;
+  padding:10px 20px 100px;
+  margin:20px;
+}

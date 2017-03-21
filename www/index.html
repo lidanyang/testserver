@@ -1,7 +1,52 @@
+<!DOCTYPE html>
 <html>
-<head>
-</head>
-<body>
-<p>hello world!</p>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="./angular.js"></script>
+    <script src="./demo.js"></script>
+    <link rel="stylesheet" type="text/css" href="./demo.css">
+  </head>
+  <body>
+    <ul>
+      <li><a href="#f1">file granularity encrypt</a></li>
+      <li><a href="#f2">file encrypt check</a></li>
+      <li><a href="#f3">sector granularity encrypt</a></li>
+      <li><a href="#f4">disk encrypt check</a></li>
+    </ul>
+    <hr>
+    <div id="f1">
+      <h2 class="hstyle">file granularity encrypt</h2></br>
+      <div class="divstyle">
+        filefullpath:<input ng-model="filename" value="demo" type="text"></br>
+        <button type="button" name="begin test" onclick="">begin test</button>
+      </div>
+    </div>
+    <hr>
+    <div id="f2">
+      <h2 class="hstyle">file encrypt check</h2></br>
+      <div class="divstyle">
+        filefullpath:<input ng-model="filename" value="demo" type="text"></br>
+        <button type="button" name="begin test">begin test</button>
+      </div>
+    </div>
+    <hr>
+    <div id="f3">
+      <h2 class="hstyle">sector granularity encrypt</h2></br>
+      <div class="divstyle">
+        filefullpath:<input ng-model="filename" value="demo" type="text"></br>
+        <button type="button" name="begin test">begin test</button>
+      </div>
+    </div>
+    <hr>
+
+    <div id="f4">
+      <h2 class="hstyle">disk encrypt check</h2></br>
+      <div class="divstyle">
+        filefullpath:<input ng-model="filename" value="demo" type="text"></br>
+        <button type="button" name="begin test">begin test</button>
+      </div>
+    </div>
+
+  </body>
 </html>
